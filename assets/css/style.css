@@ -1,41 +1,31 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
 
 /* Menu/Navigation */
 .title-bar {
     width: 100%;
     z-index: 10;
-    transition: height .25s ease;
+    transition: height .2s ease;
     height: 4.5em;
     background-color: #e0b701;
+    font-family: 'Courier New', Courier, monospace;
     color: whitesmoke;
   }
-  
-  .title-bar .title-bar-right, 
-  .title-bar .title-bar-left {
-    transition: padding-top .25s ease;
-    padding-top: 1.4em;
+
+  .white {
+      color: whitesmoke;
+      font-weight: 700;
   }
-  .title-bar.shrink {
-    height: 3em;
-  }
-  .title-bar.shrink .title-bar-right, 
-  .title-bar.shrink .title-bar-left {
-    padding-top: 0em;
-  }
-  .title-bar .dropdown.menu li {
-    float: left;
-  }
-  .title-bar .dropdown.menu .is-dropdown-submenu {
-    border: none;
-    background-color: #e0b701;
-  }
-  #root {
-    margin-top: 2em;
+
+  .active {
+      font-style: italic;
   }
   /* END Menu/Navigation */
 
 
   /* HERO */
-  .hero {
+.hero {
     height: 500px;
     width: 100%;
     margin-bottom: 25px;
@@ -43,4 +33,58 @@
     background-size: cover;
     background-position: center;
 }
+
+h1 {
+    padding-top: 90px;
+    padding-left: 40px;
+    font-family: 'Sacramento', cursive;
+    margin: auto;
+}
 /* END Hero */
+
+/* About Me*/
+.profilephoto {
+    border-radius: 170px;
+    padding: 10px;
+    margin: 10px;
+}
+
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    padding: 20px;
+}
+/* END About Me*/
+
+/* Footer */
+footer {
+    padding: 10px;
+    height: 100px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #c7c7c7;
+    color: whitesmoke;
+}
+/* END Footer */
+
+/* Hero Contact Page */
+.hero-contact {
+    height: 400px;
+    width: 100%;
+    background-image: url("../images/pexels-miguel-Ã¡-padriÃ±Ã¡n-1591062.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* END Hero Contact Page */
+
+/* Contact Form */
+.callout{
+    align-items: center;
+}
+/* END Contact Form */
