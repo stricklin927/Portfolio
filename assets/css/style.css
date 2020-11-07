@@ -35,10 +35,11 @@
 }
 
 h1 {
-    padding-top: 90px;
-    padding-left: 40px;
-    font-family: 'Sacramento', cursive;
+    padding-top: 100px;
+    padding-left: 100px;
     margin: auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 75px;
 }
 /* END Hero */
 
@@ -73,7 +74,24 @@ footer {
 }
 /* END Footer */
 
-/* Hero Contact Page */
+
+/* HERO Portfolio Page*/
+.hero-portfolio {
+    height: 500px;
+    width: 100%;
+    background-image: url("../images/pexels-pixabay-373076.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.profportfolio{
+    padding-top: 275px;
+    padding-left: 200px;
+    margin: auto;
+}
+/* END Hero Portfolio Page*/
+
+/* HERO Contact Page */
 .hero-contact {
     height: 400px;
     width: 100%;
@@ -88,3 +106,4 @@ footer {
     align-items: center;
 }
 /* END Contact Form */
+
