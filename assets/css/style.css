@@ -84,7 +84,7 @@ footer {
     background-position: center;
 }
 
-.profportfolio{
+.h1portfolio, .h1contact {
     padding-top: 275px;
     padding-left: 200px;
     margin: auto;
@@ -93,9 +93,9 @@ footer {
 
 /* HERO Contact Page */
 .hero-contact {
-    height: 400px;
+    height: 500px;
     width: 100%;
-    background-image: url("../images/pexels-miguel-Ã¡-padriÃ±Ã¡n-1591062.jpg");
+    background-image: url("../images/pexels-238118.jpg");
     background-size: cover;
     background-position: center;
 }
