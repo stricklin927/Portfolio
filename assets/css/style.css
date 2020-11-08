@@ -59,22 +59,6 @@ p {
 }
 /* END About Me*/
 
-/* Footer */
-footer {
-    padding: 10px;
-    height: 100px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 14px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #c7c7c7;
-    color: whitesmoke;
-}
-/* END Footer */
-
-
 /* HERO Portfolio Page*/
 .hero-portfolio {
     height: 500px;
@@ -94,11 +78,33 @@ footer {
 
 /* CARDS Portfolio */
 #cardbtn {
-    padding: 10px;
     margin: 0 auto;
     border-radius: 10px;
 }
 /* END Cards Portfilio */
+
+/* HERO Resume */
+.hero-resume {
+    height: 450px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/pexels-tirachard-kumtanom-733852.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.h1resume {
+    text-align: center;
+    padding-top: 200px;
+    left: 50%;
+}
+
+#resumebtn {
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+}
+/* END Hero Resume */
 
 
 /* HERO Contact Page */
@@ -117,3 +123,17 @@ footer {
 }
 /* END Contact Form */
 
+/* Footer */
+footer {
+    padding: 10px;
+    height: 100px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #c7c7c7;
+    color: whitesmoke;
+}
+/* END Footer */
