@@ -126,14 +126,24 @@ p {
 /* Footer */
 footer {
     padding: 10px;
-    height: 100px;
+    height: 200px;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
     font-size: 14px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Courier New', Courier, monospace;
     background-color: #c7c7c7;
-    color: whitesmoke;
+    color: white;
+}
+
+h5 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.githubBtn, .linkedinBtn {
+    color: #e9bf04;
+    font-size: 60px;
+
 }
 /* END Footer */
