@@ -20,6 +20,11 @@
 
   .active {
       font-style: italic;
+      color: grey;
+  }
+
+  .white:hover {
+      color: grey;
   }
   /* END Menu/Navigation */
 
