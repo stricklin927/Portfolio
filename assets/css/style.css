@@ -142,8 +142,12 @@ h5 {
 }
 
 .githubBtn, .linkedinBtn {
-    color: #e9bf04;
+    color: black;
     font-size: 60px;
 
+}
+
+.githubBtn:hover, .linkedinBtn:hover {
+    color: #e9bf04;
 }
 /* END Footer */
