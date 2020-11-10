@@ -21,4 +21,4 @@ For this project I created a responsive, professional portfolio. This app featur
 * HTML5
 * CSS3
     * ZURB Foundation
-
+* Pexels
