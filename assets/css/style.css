@@ -123,8 +123,12 @@ p {
 /* END Hero Contact Page */
 
 /* Contact Form */
-.callout{
-    align-items: center;
+#contact {
+    margin: auto;
+}
+
+#submitBtn {
+    border-radius: 10px;
 }
 /* END Contact Form */
 
