@@ -168,14 +168,15 @@ h5 {
 @media only screen and (max-width: 600px) {
     .h1name {
         font-size: 40px;
-        padding-top: 30%;
-        padding-left: 10%;
+        width: 60%;
+        padding-top: 20%;
+        padding-left: 5%;
         margin: auto;
     }
     
     .h1portfolio, .h1contact {
         font-size: 40px;
-        padding-top: 45%;
+        padding-top: 55%;
         padding-left: 20%;
         margin: auto;
     }
