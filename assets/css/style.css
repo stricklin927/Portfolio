@@ -29,7 +29,7 @@
   /* END Menu/Navigation */
 
 
-  /* HERO */
+  /* HERO About Me */
 .hero {
     height: 500px;
     width: 100%;
@@ -40,13 +40,17 @@
 }
 
 h1 {
-    padding-top: 100px;
-    padding-left: 100px;
-    margin: auto;
     font-family: 'Sacramento', cursive;
     font-size: 75px;
 }
-/* END Hero */
+
+.h1name {
+    padding-top: 100px;
+    padding-left: 100px;
+    margin: auto;
+}
+
+/* END Hero About Me */
 
 /* About Me*/
 .profilephoto {
@@ -160,3 +164,19 @@ h5 {
     color: #e9bf04;
 }
 /* END Footer */
+
+@media only screen and (max-width: 600px) {
+    .h1name {
+        font-size: 40px;
+        padding-top: 30%;
+        padding-left: 10%;
+        margin: auto;
+    }
+    
+    .h1portfolio, .h1contact {
+        font-size: 40px;
+        padding-top: 45%;
+        padding-left: 20%;
+        margin: auto;
+    }
+}
